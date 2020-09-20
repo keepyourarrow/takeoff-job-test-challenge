@@ -4,6 +4,20 @@ import "firebase/firestore";
 
 import config from "./config";
 
+/* Example of config file
+const config = {
+  firebase_API_KEY:
+  firebase_AUTH_DOMAIN:
+  firebase_DATABASE_URL:
+  firebase_PROJECT_ID:
+  firebase_STORAGE_BUCKET:
+  firebase_MESSAGING_SENDER_ID:
+  firebase_API_ID:
+};
+export default config;
+
+*/
+
 // replace these values with your own!
 export const firebaseConfig = {
   apiKey: config.firebase_API_KEY,

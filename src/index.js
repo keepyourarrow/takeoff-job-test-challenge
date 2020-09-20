@@ -1,10 +1,9 @@
 import * as serviceWorker from "./serviceWorker";
 import React from "react";
 import ReactDOM from "react-dom";
-import { Provider, useSelector } from "react-redux";
+import { Provider } from "react-redux";
 
 import { store } from "./redux/store";
-import { BrowserRouter } from "react-router-dom";
 import { createFirestoreInstance } from "redux-firestore";
 import { ReactReduxFirebaseProvider } from "react-redux-firebase";
 import firebase from "firebase/app";
@@ -33,11 +32,9 @@ const rrfProps = {
 ReactDOM.render(
   <Provider store={store}>
     <ReactReduxFirebaseProvider {...rrfProps}>
-      {/* <BrowserRouter> */}
       {/* <AuthIsLoaded> */}
       <App />
       {/* </AuthIsLoaded> */}
-      {/* </BrowserRouter> */}
     </ReactReduxFirebaseProvider>
     ,
   </Provider>,

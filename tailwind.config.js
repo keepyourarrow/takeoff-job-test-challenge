@@ -1,10 +1,10 @@
 module.exports = {
-  purge: [],
+  purge: ["./src/**/*.html", "./src/**/*.jsx", "./src/**/*.js"],
   theme: {
     extend: {
       spacing: {
-        "72": "18rem",
-        "80": "20rem",
+        72: "18rem",
+        80: "20rem",
       },
     },
     customForms: (theme) => ({
