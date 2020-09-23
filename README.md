@@ -10,5 +10,7 @@ https://takeoff-job.web.app/
 ### Стэк:
 
 Frontend: React/Redux
+
 Database/backend: Firebase
+
 CSS framework: Tailwind CSS
