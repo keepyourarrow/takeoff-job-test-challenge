@@ -3,7 +3,7 @@
 npm install
 npm start
 
-### Стэк
+### Стэк:
 
 Frontend: React/Redux
 Database/backend: Firebase
