@@ -1,5 +1,10 @@
-### Basic skeleton for react-redux-tailwind and firebase project
+### Как запускать приложение:
 
-A starter template intended to get you started with a basic react-redux-tailwind project without having to worry about configuration.
+npm install
+npm start
 
-## npm install npm start to start
+### Стэк
+
+Frontend: React/Redux
+Database/backend: Firebase
+CSS framework: Tailwind CSS
